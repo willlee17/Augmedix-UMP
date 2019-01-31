@@ -1,0 +1,19 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let user of users" [routerLink]="['/users', user.id]"  style="cursor: pointer">
+    <div class="row">
+      <div class="col-xs-12 col-md-9 users-list">
+        <h3>Name: {{ user.name }}</h3>
+        <p>Email: {{user.email}}</p>
+        <div>
+          Roles: <span *ngFor="let role of user.roles">{{ role.name }} </span>
+        </div>
+      </div>
+        <br>
+      <div class="col-xs-12 col-md-3 users-list-buttons">
+        <button type="button" class="btn btn-primary ">Edit</button>
+        <button type="button" class="btn btn-danger " (click)="handleDelete(user.id)">Delete</button>
+      </div>
+    </div>
+  </li>
+</ul>
+<button type="button" class="btn btn-success"(click)="dataToCsv()">Get CSV</button>

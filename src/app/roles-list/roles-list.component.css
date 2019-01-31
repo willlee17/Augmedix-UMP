@@ -1,0 +1,19 @@
+@media(max-width: 960px) {
+  .roles-list{
+    text-align: center;
+  }
+  .roles-btn {
+  text-align: center;
+  }
+}
+
+
+.list-group-item {
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #f7f7f7;
+}
+
+button {
+  margin-right: 0.75rem;
+}

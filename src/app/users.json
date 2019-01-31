@@ -1,0 +1,39 @@
+[
+  {
+    "name": "William Lee",
+    "email": "will@gmail.com",
+    "id": 1,
+    "roles": [
+      {
+        "name": "Intern",
+        "permissions": ["Read"]
+      }
+    ]
+  },
+  {
+    "name": "Corey Brewer",
+    "email": "10day@gmail.com",
+    "id": 2,
+    "roles": [
+      {
+        "name": "Engineer",
+        "permissions": ["Create"]
+      }
+    ]
+  },
+  {
+    "name": "Ben Simmons",
+    "email": "roty@gmail.com",
+    "id": 3,
+    "roles": [
+      {
+        "name": "Manager",
+        "permissions": ["Edit"]
+      },
+      {
+        "name": "Engineer",
+        "permissions": ["Create"]
+      }
+    ]
+  }
+]

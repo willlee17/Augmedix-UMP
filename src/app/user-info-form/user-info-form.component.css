@@ -1,0 +1,11 @@
+form {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #f7f7f7;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.user-role-checkbox{
+  margin-left: 0.3rem;
+}

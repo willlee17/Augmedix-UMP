@@ -1,0 +1,20 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #f7f7f7;
+  padding: 1.5rem;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.card-header {
+  background-color: #f7f7f7;
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+.card-body {
+  margin: 1rem;
+  text-align: center;
+}

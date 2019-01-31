@@ -1,0 +1,14 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let role of roles">
+    <div class="row">
+      <div class="col-xs-12 col-md-9 roles-list">
+        <h3>Role Name: {{ role.name }}</h3>
+          Permissions: <span *ngFor="let permission of role.permissions">{{ permission }} </span>
+      </div>
+      <br>
+      <div class="col-xs-12 col-md-3 roles-btn">
+        <button type="button" class="btn btn-danger " (click)="handleDelete(role.id)">Delete</button>
+      </div>
+    </div>
+  </li>
+</ul>
