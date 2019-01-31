@@ -18,6 +18,6 @@ Other features that I implemented throughout the application are:
 ## Improvements / Time Constraints:
 * Overall styling. Cleaner cards and list groups.
 * Small bugs
-... - If user has multiple roles that has multiple permissions. Duplicates will show up.
-... - CSV only gets the first role and first permission.
+  * If user has multiple roles that has multiple permissions. Duplicates will show up.
+  * CSV only gets the first role and first permission.
 * NOTE: First Angular application I've created. So my usage of certain Angular features may be incorrectly implemented.
